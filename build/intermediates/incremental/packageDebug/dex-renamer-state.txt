@@ -1,4 +1,4 @@
-#Sat Feb 08 02:07:46 IST 2020
+#Sat Feb 08 03:48:25 IST 2020
 base.0=/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

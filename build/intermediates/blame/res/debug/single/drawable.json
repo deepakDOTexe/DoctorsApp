@@ -8,16 +8,16 @@
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/drawable/icon.png"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/res/merged/debug/drawable/icon.png",
         "source": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/drawable/icon.png"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/res/merged/debug/drawable/icon.png",
-        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/drawable/icon.png"
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",

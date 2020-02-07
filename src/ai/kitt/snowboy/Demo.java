@@ -22,6 +22,7 @@ import android.widget.Toast;
 import android.content.Context;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 import ai.kitt.snowboy.audio.AudioDataSaver;
@@ -33,7 +34,7 @@ public class Demo extends Activity {
 
     private Button record_button;
     private Button play_button;
-    private TextView log;
+    private TextView log,name,age,gender,diagnosis,advice,symptoms,prescription;
     private TextView text;
     private ScrollView logView;
     static String strLog = null;
@@ -52,9 +53,9 @@ public class Demo extends Activity {
         setContentView(R.layout.main);
         setUI();
         
-        setProperVolume();
+//        setProperVolume();
 
-          AppResCopy.copyResFromAssetsToSD(this);
+        AppResCopy.copyResFromAssetsToSD(this);
         
         activeTimes = 0;
         recordingThread = new RecordingThread(handle, new AudioDataSaver());
@@ -106,8 +107,83 @@ public class Demo extends Activity {
                         .getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
 
                 //displaying the first match
-                if (matches != null)
+                if (matches != null){
                     text.setText(matches.get(0));
+                    String s=matches.get(0);
+
+                    String[] splited=s.split("\\s+");
+
+
+                    HashMap<String,ArrayList<String>> m=new HashMap<>();
+
+                    String key=splited[0].toLowerCase();
+
+
+                    for(int i=1;i<splited.length;i++){
+
+                        if(("name".equalsIgnoreCase(splited[i]))||("age".equalsIgnoreCase(splited[i]))||("gender".equalsIgnoreCase(splited[i]))||("symptoms".equalsIgnoreCase(splited[i]))||("diagnosis".equalsIgnoreCase(splited[i]))||("prescription".equalsIgnoreCase(splited[i]))||("advise".equalsIgnoreCase(splited[i]))){
+                            key=splited[i].toLowerCase();
+                            System.out.println(key);
+                            continue;
+                        }
+
+                        if(!m.containsKey(key)){
+                            m.put(key,new ArrayList<String>());
+                        }
+                        m.get(key).add(splited[i]);
+                    }
+
+                    if(m.containsKey("name")){
+                        String n="";
+                        ArrayList<String> a=m.get("name");
+                        for(String i:a) n=n+" "+i;
+                        name.setText(n);
+                    }
+
+                    if(m.containsKey("age")){
+                        String n="";
+                        ArrayList<String> a=m.get("age");
+                        for(String i:a) n=n+" "+i;
+                        age.setText(n);
+                    }
+
+                    if(m.containsKey("gender")){
+                        String n="";
+                        ArrayList<String> a=m.get("gender");
+                        for(String i:a) n=n+" "+i;
+                        gender.setText(n);
+                    }
+
+                    if(m.containsKey("advise")){
+                        String n="";
+                        ArrayList<String> a=m.get("advise");
+                        for(String i:a) n=n+" "+i;
+                        advice.setText(n);
+                    }
+
+                    if(m.containsKey("diagnosis")){
+                        String n="";
+                        ArrayList<String> a=m.get("diagnosis");
+                        for(String i:a) n=n+" "+i;
+                        diagnosis.setText(n);
+                    }
+
+                    if(m.containsKey("prescription")){
+                        String n="";
+                        ArrayList<String> a=m.get("prescription");
+                        for(String i:a) n=n+" "+i;
+                        prescription.setText(n);
+                    }
+
+                    if(m.containsKey("symptoms")){
+                        String n="";
+                        ArrayList<String> a=m.get("symptoms");
+                        for(String i:a) n=n+" "+i;
+                        symptoms.setText(n);
+                    }
+
+                }
+
             }
 
             @Override
@@ -138,6 +214,13 @@ public class Demo extends Activity {
         text=(TextView)findViewById(R.id.textInput) ;
         log = (TextView)findViewById(R.id.log);
         logView = (ScrollView)findViewById(R.id.logView);
+        name=(TextView)findViewById(R.id.name) ;
+        age=(TextView)findViewById(R.id.age) ;
+        gender=(TextView)findViewById(R.id.gender) ;
+        symptoms=(TextView)findViewById(R.id.symptoms) ;
+        diagnosis=(TextView)findViewById(R.id.diagnosis) ;
+        prescription=(TextView)findViewById(R.id.prescription) ;
+        advice=(TextView)findViewById(R.id.advice) ;
     }
     
     private void setMaxVolume() {
@@ -175,28 +258,28 @@ public class Demo extends Activity {
 
     private void startRecording() {
         recordingThread.startRecording();
-        updateLog(" ----> recording started ...", "green");
+//        updateLog(" ----> recording started ...", "green");
         record_button.setText(R.string.btn1_stop);
     }
 
     private void stopRecording() {
         recordingThread.stopRecording();
-        updateLog(" ----> recording stopped ", "green");
+//        updateLog(" ----> recording stopped ", "green");
         record_button.setText(R.string.btn1_start);
     }
 
-    private void startPlayback() {
-        updateLog(" ----> playback started ...", "green");
-        play_button.setText(R.string.btn2_stop);
-        // (new PcmPlayer()).playPCM();
-        playbackThread.startPlayback();
-    }
-
-    private void stopPlayback() {
-        updateLog(" ----> playback stopped ", "green");
-        play_button.setText(R.string.btn2_start);
-        playbackThread.stopPlayback();
-    }
+//    private void startPlayback() {
+//        updateLog(" ----> playback started ...", "green");
+//        play_button.setText(R.string.btn2_stop);
+//        // (new PcmPlayer()).playPCM();
+//        playbackThread.startPlayback();
+//    }
+//
+//    private void stopPlayback() {
+//        updateLog(" ----> playback stopped ", "green");
+//        play_button.setText(R.string.btn2_start);
+//        playbackThread.stopPlayback();
+//    }
 
     private void sleep() {
         try { Thread.sleep(500);
@@ -207,7 +290,7 @@ public class Demo extends Activity {
         // @Override
         public void onClick(View arg0) {
             if(record_button.getText().equals(getResources().getString(R.string.btn1_start))) {
-                stopPlayback();
+//                stopPlayback();
                 sleep();
                 startRecording();
             } else {
@@ -223,9 +306,9 @@ public class Demo extends Activity {
             if (play_button.getText().equals(getResources().getString(R.string.btn2_start))) {
                 stopRecording();
                 sleep();
-                startPlayback();
+//                startPlayback();
             } else {
-                stopPlayback();
+//                stopPlayback();
             }
         }
     };
