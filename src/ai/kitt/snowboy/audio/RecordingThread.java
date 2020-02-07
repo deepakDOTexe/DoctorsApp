@@ -1,9 +1,7 @@
 package ai.kitt.snowboy.audio;
-
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-
 import ai.kitt.snowboy.Constants;
 import ai.kitt.snowboy.MsgEnum;
 import android.media.AudioFormat;
