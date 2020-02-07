@@ -23,6 +23,7 @@ import android.content.Context;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Locale;
 
 import ai.kitt.snowboy.audio.AudioDataSaver;
@@ -110,7 +111,7 @@ public class Demo extends Activity {
                 if (matches != null){
                     text.setText(matches.get(0));
                     String s=matches.get(0);
-
+                    HashSet<String> myAdd;
                     String[] splited=s.split("\\s+");
 
 
@@ -130,11 +131,21 @@ public class Demo extends Activity {
                         if(!m.containsKey(key)){
                             m.put(key,new ArrayList<String>());
                         }
-                        m.get(key).add(splited[i]);
+                        if(splited[i].equalsIgnoreCase("add")){
+                            myAdd.add(key);
+                            continue;
+                        }
+                        if(!splited[i].equalsIgnoreCase("clear")){
+                            m.get(key).add(splited[i]);
+                        }
+                        
                     }
 
                     if(m.containsKey("name")){
                         String n="";
+                        if(myAdd.contains("name")){
+                            n=name.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("name");
                         for(String i:a) n=n+" "+i;
                         name.setText(n);
@@ -142,6 +153,9 @@ public class Demo extends Activity {
 
                     if(m.containsKey("age")){
                         String n="";
+                        if(myAdd.contains("age")){
+                            n=age.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("age");
                         for(String i:a) n=n+" "+i;
                         age.setText(n);
@@ -149,6 +163,9 @@ public class Demo extends Activity {
 
                     if(m.containsKey("gender")){
                         String n="";
+                        if(myAdd.contains("gender")){
+                            n=gender.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("gender");
                         for(String i:a) n=n+" "+i;
                         gender.setText(n);
@@ -156,6 +173,9 @@ public class Demo extends Activity {
 
                     if(m.containsKey("advise")){
                         String n="";
+                        if(myAdd.contains("advise")){
+                            n=advice.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("advise");
                         for(String i:a) n=n+" "+i;
                         advice.setText(n);
@@ -163,6 +183,9 @@ public class Demo extends Activity {
 
                     if(m.containsKey("diagnosis")){
                         String n="";
+                        if(myAdd.contains("diagnosis")){
+                            n=diagnosis.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("diagnosis");
                         for(String i:a) n=n+" "+i;
                         diagnosis.setText(n);
@@ -170,6 +193,9 @@ public class Demo extends Activity {
 
                     if(m.containsKey("prescription")){
                         String n="";
+                        if(myAdd.contains("prescription")){
+                            n=prescription.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("prescription");
                         for(String i:a) n=n+" "+i;
                         prescription.setText(n);
@@ -177,6 +203,9 @@ public class Demo extends Activity {
 
                     if(m.containsKey("symptoms")){
                         String n="";
+                        if(myAdd.contains("symptoms")){
+                            n=symptoms.getText().toString()+" ";
+                        }
                         ArrayList<String> a=m.get("symptoms");
                         for(String i:a) n=n+" "+i;
                         symptoms.setText(n);
