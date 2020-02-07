@@ -111,7 +111,7 @@ public class Demo extends Activity {
                 if (matches != null){
                     text.setText(matches.get(0));
                     String s=matches.get(0);
-                    HashSet<String> myAdd;
+                    HashSet<String> myAdd=new HashSet<>();
                     String[] splited=s.split("\\s+");
 
 

@@ -10,5 +10,9 @@
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/pal_0123/Documents/PHack/DoctorsApp/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

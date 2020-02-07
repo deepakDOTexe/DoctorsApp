@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

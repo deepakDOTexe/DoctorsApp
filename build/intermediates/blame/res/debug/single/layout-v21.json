@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout-v21/notification_action.xml"
+    }
+]
