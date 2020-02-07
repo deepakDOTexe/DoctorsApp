@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/layout/main.xml"
+    }
+]

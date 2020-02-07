@@ -1,0 +1,202 @@
+[
+    {
+        "outputFile": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 73,
+                        "endColumn": 53,
+                        "endOffset": 122
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 44,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 129,
+                        "endColumn": 41,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 42,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 42,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 43,
+                    "endOffset": 236
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 43,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 241,
+                    "endColumn": 42,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 42,
+                        "endOffset": 302
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 73,
+                        "endColumn": 53,
+                        "endOffset": 122
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 44,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 129,
+                        "endColumn": 41,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 42,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 42,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 43,
+                    "endOffset": 236
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 43,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 241,
+                    "endColumn": 42,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 42,
+                        "endOffset": 302
+                    }
+                }
+            }
+        ]
+    }
+]
