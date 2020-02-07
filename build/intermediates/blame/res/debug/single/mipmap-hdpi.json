@@ -6,5 +6,9 @@
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

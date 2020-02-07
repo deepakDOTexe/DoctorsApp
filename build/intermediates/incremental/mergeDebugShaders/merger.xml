@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/thenullterminator/AndroidStudioProjects/DoctorApp/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/thenullterminator/AndroidStudioProjects/DoctorApp/build-types/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/thenullterminator/AndroidStudioProjects/DoctorsApp/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build-types/debug/shaders"/></dataSet></merger>

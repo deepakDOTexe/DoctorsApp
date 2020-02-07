@@ -4,6 +4,10 @@
         "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/mipmap-xxhdpi/ic_launcher.png"
     }
