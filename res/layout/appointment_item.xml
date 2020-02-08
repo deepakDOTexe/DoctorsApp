@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infinite_ca"
+    android:layout_width="240dp"
+    android:layout_height="136dp"
+    android:layout_alignParentStart="true"
+    android:layout_marginStart="12dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="11dp"
+    android:outlineProvider="bounds"
+    android:elevation="3dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rectangle_8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+         >
+
+        <TextView
+            android:id="@+id/patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Patient's Name"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patient_name"
+            android:hint="8 February, 2020"
+            android:layout_marginStart="24dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+            android:id="@+id/ic_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_bookmark"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="18dp"/>
+
+        <ImageView
+            android:layout_alignStart="@id/ic_bookmark"
+            android:id="@+id/ic_email"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_mail"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="18dp"/>
+
+        <ImageView
+            android:layout_alignStart="@id/ic_email"
+            android:id="@+id/ic_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_phone"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="18dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_face"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="24dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
