@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
@@ -16,12 +16,24 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
@@ -32,16 +44,12 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
@@ -50,5 +58,49 @@
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/color/abc_hint_foreground_material_dark.xml"
     }
 ]

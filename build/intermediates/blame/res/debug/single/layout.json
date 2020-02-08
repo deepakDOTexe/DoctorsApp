@@ -1,31 +1,23 @@
 [
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/layout/main.xml"
-    },
-    {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout/notification_template_part_time.xml"
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/layout/main.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/main.xml",
@@ -40,20 +32,16 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_mode_bar.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/login_activity.xml",
-        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/res/layout/login_activity.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/home/thenullterminator/.android/build-cache/5d9ca5fc223c87a354929689e3bb6c70269c207f/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -88,20 +76,16 @@
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/login_activity.xml",
+        "source": "/home/anurag/AndroidStudioProjects/DoctorsApp/res/layout/login_activity.xml"
+    },
+    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/home/thenullterminator/.android/build-cache/5d9ca5fc223c87a354929689e3bb6c70269c207f/output/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/thenullterminator/.android/build-cache/5d9ca5fc223c87a354929689e3bb6c70269c207f/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -112,16 +96,12 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/home/pal_0123/Documents/PHack/DoctorsApp/res/layout/main.xml"
-    },
-    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -132,20 +112,12 @@
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/build/intermediates/res/merged/debug/layout/main.xml",
         "source": "/home/thenullterminator/AndroidStudioProjects/HotWordDetection/res/layout/main.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_cascading_menu_item_layout.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_cascading_menu_item_layout.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -156,16 +128,204 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_tooltip.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/thenullterminator/.android/build-cache/6c4306c27efea36b2a365894e5eaeb09a6dbb938/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_cascading_menu_item_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/anurag/.android/build-cache/cfd01bb2d0ec2ff2d7edd9bdd394ba81ce42ea2d/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/thenullterminator/.android/build-cache/5d9ca5fc223c87a354929689e3bb6c70269c207f/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/login_activity.xml",
+        "source": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/res/layout/login_activity.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/pal_0123/.android/build-cache/eb8db668a8176d22d10d2992b7c0a5742c6abe1c/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/pal_0123/Documents/PHack/DoctorsApp/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_cascading_menu_item_layout.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
@@ -188,20 +348,16 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_cascading_menu_item_layout.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_cascading_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -212,12 +368,12 @@
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/thenullterminator/.android/build-cache/6c4306c27efea36b2a365894e5eaeb09a6dbb938/output/res/layout/notification_template_part_time.xml"
+        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
@@ -228,20 +384,12 @@
         "source": "/home/thenullterminator/.android/build-cache/6c4306c27efea36b2a365894e5eaeb09a6dbb938/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_select_dialog_material.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -260,20 +408,12 @@
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
         "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -284,31 +424,35 @@
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/home/thenullterminator/.android/build-cache/5d9ca5fc223c87a354929689e3bb6c70269c207f/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/anurag/.android/build-cache/cfd01bb2d0ec2ff2d7edd9bdd394ba81ce42ea2d/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/home/pal_0123/Documents/PHack/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/home/pal_0123/.android/build-cache/6042595819f6821fe45d1017fe4b2aa83eed976b/output/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/home/thenullterminator/.android/build-cache/68fe0a6bfcb6a4cf0f501f6e1e7869b88812f2ef/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/anurag/.android/build-cache/b6ab316b830a552330760b86475971c6b9bd881d/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/anurag/AndroidStudioProjects/DoctorsApp/res/layout/main.xml"
     }
 ]

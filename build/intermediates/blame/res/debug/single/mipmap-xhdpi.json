@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/anurag/AndroidStudioProjects/DoctorsApp/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/anurag/AndroidStudioProjects/DoctorsApp/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/thenullterminator/AndroidStudioProjects/DoctorApp/res/mipmap-xhdpi/ic_launcher.png"
     },
