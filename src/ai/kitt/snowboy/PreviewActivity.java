@@ -1,15 +1,14 @@
 package ai.kitt.snowboy;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import ai.kitt.snowboy.demo.R;
 
-public class LoginActivity extends AppCompatActivity {
-
+public class PreviewActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_preview);
     }
 }

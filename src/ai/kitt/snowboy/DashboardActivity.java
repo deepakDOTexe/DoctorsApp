@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import ai.kitt.snowboy.demo.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_dashboard);
     }
 }
