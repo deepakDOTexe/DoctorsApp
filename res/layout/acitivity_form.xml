@@ -73,21 +73,21 @@
                 android:layout_marginTop="8dp">
 
                 <EditText
-                    android:background="@drawable/rectangle_2"
+                    android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/rectangle_2"
+                    android:gravity="center_vertical"
                     android:hint="Name"
                     android:paddingStart="24dp"
-                    android:paddingEnd="8dp"
                     android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:theme="@style/EditTextTheme"
+                    android:paddingEnd="8dp"
 
-                    android:gravity="center_vertical"
-                    >
+                    android:paddingBottom="8dp"
+                    android:theme="@style/EditTextTheme">
 
                 </EditText>
 
@@ -101,34 +101,36 @@
                     android:paddingTop="16dp">
 
                     <EditText
-                        android:elevation="4dp"
-                        android:paddingStart="24dp"
-                        android:paddingEnd="24dp"
-                        android:paddingTop="8dp"
-                        android:paddingBottom="8dp"
-                        android:gravity="center_vertical"
-                        android:background="@drawable/rectangle_2"
-                        android:layout_weight="1"
+                        android:id="@+id/age"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:theme="@style/EditTextTheme"
                         android:layout_marginRight="16dp"
-                        android:hint="Age">
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangle_2"
+                        android:elevation="4dp"
+                        android:gravity="center_vertical"
+                        android:hint="Age"
+                        android:paddingStart="24dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="24dp"
+                        android:paddingBottom="8dp"
+                        android:theme="@style/EditTextTheme">
 
                     </EditText>
 
                     <EditText
-                        android:elevation="4dp"
-                        android:paddingStart="24dp"
-                        android:paddingEnd="8dp"
-                        android:paddingTop="8dp"
-                        android:paddingBottom="8dp"
-                        android:layout_marginLeft="4dp"
-                        android:background="@drawable/rectangle_2"
-                        android:layout_weight="1"
+                        android:id="@+id/gender"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangle_2"
+                        android:elevation="4dp"
                         android:hint="Gender"
+                        android:paddingStart="24dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingBottom="8dp"
                         android:theme="@style/EditTextTheme">
 
                     </EditText>
@@ -155,18 +157,19 @@
                 android:layout_marginTop="8dp">
 
                 <EditText
-                    android:paddingStart="24dp"
-                    android:paddingEnd="24dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:background="@drawable/rectangle_2"
+                    android:id="@+id/symptoms"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
                     android:layout_marginBottom="16dp"
+                    android:background="@drawable/rectangle_2"
                     android:fontFamily="@font/athiti"
+                    android:paddingStart="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="24dp"
+                    android:paddingBottom="8dp"
                     android:theme="@style/EditTextTheme">
 
                 </EditText>
@@ -192,18 +195,19 @@
                 android:layout_marginTop="8dp">
 
                 <EditText
-                    android:paddingStart="24dp"
-                    android:paddingEnd="24dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:background="@drawable/rectangle_2"
+                    android:id="@+id/diagnosis"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
                     android:layout_marginBottom="16dp"
+                    android:background="@drawable/rectangle_2"
                     android:fontFamily="@font/athiti"
+                    android:paddingStart="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="24dp"
+                    android:paddingBottom="8dp"
                     android:theme="@style/EditTextTheme">
 
                 </EditText>
@@ -228,18 +232,19 @@
                 android:layout_marginTop="8dp">
 
                 <EditText
-                    android:paddingStart="24dp"
-                    android:paddingEnd="24dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:background="@drawable/rectangle_2"
+                    android:id="@+id/prescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
                     android:layout_marginBottom="16dp"
+                    android:background="@drawable/rectangle_2"
                     android:fontFamily="@font/athiti"
+                    android:paddingStart="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="24dp"
+                    android:paddingBottom="8dp"
                     android:theme="@style/EditTextTheme">
 
                 </EditText>
@@ -263,18 +268,19 @@
                 android:layout_marginTop="8dp">
 
                 <EditText
-                    android:paddingStart="24dp"
-                    android:paddingEnd="24dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:background="@drawable/rectangle_2"
+                    android:id="@+id/advice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
                     android:layout_marginBottom="16dp"
+                    android:background="@drawable/rectangle_2"
                     android:fontFamily="@font/athiti"
+                    android:paddingStart="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="24dp"
+                    android:paddingBottom="8dp"
                     android:theme="@style/EditTextTheme">
 
                 </EditText>
@@ -311,14 +317,15 @@
 
 
     <android.support.design.widget.FloatingActionButton
-        android:translationZ="180dp"
+        android:id="@+id/mic"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="24dp"
-        android:src="@drawable/ic_mic"
-        android:elevation="6dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:elevation="6dp"
+        android:src="@drawable/ic_mic"
+        android:translationZ="180dp"
         app:backgroundTint="@android:color/white" />
 
 </RelativeLayout>
