@@ -17,16 +17,19 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="ai.kitt.snowboy.Demo"
+            android:name="ai.kitt.snowboy.Login_Page"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity android:name="ai.kitt.snowboy.Demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ai.kitt.snowboy.Login_Page" />
+        <activity android:name="ai.kitt.snowboy.FormActivity" >
+        </activity>
     </application>
 
 </manifest>
