@@ -2,7 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
 
     <RelativeLayout
         android:id="@+id/rectangle_top"
@@ -19,8 +22,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_margin="18dp"
-            android:src="@drawable/ic_vector">
-        </ImageView>
+            android:src="@drawable/ic_vector"></ImageView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,8 +31,7 @@
             android:layout_marginLeft="40dp"
             android:gravity="center_vertical"
             android:text="Prescription"
-            android:textSize="24sp"
-            >
+            android:textSize="24sp">
 
         </TextView>
 
@@ -39,45 +40,55 @@
             android:layout_height="24dp"
             android:src="@drawable/ic_three_dot"
             android:layout_alignParentEnd="true"
-            android:layout_margin="18dp"
-            />
+            android:layout_margin="18dp" />
     </RelativeLayout>
 
     <ScrollView
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="64dp"
         android:layout_marginBottom="60dp"
+        android:paddingBottom="4dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            
+            android:layout_height="wrap_content">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Personal Details"
                 android:textSize="20sp"
                 android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
-                android:layout_marginTop="16dp"/>
+                android:layout_marginEnd="24dp" />
 
             <LinearLayout
+                android:background="@drawable/rectangle_1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
-                android:layout_marginTop="16dp">
+                android:layout_marginTop="8dp">
 
                 <EditText
+                    android:background="@drawable/rectangle_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginTop="16dp"
-                    android:hint="Name">
+                    android:hint="Name"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:theme="@style/EditTextTheme"
+
+                    android:gravity="center_vertical"
+                    >
+
                 </EditText>
 
                 <LinearLayout
@@ -85,23 +96,189 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginStart="24dp"
-                    android:layout_marginEnd="24dp">
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingTop="16dp">
 
                     <EditText
+                        android:elevation="4dp"
+                        android:paddingStart="24dp"
+                        android:paddingEnd="24dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/rectangle_2"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:theme="@style/EditTextTheme"
+                        android:layout_marginRight="16dp"
                         android:hint="Age">
+
                     </EditText>
 
                     <EditText
+                        android:elevation="4dp"
+                        android:paddingStart="24dp"
+                        android:paddingEnd="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="4dp"
+                        android:background="@drawable/rectangle_2"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:hint="Gender">
+                        android:hint="Gender"
+                        android:theme="@style/EditTextTheme">
+
                     </EditText>
 
                 </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"
+                android:textSize="20sp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="16dp" />
+
+
+            <LinearLayout
+                android:background="@drawable/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@drawable/rectangle_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/athiti"
+                    android:theme="@style/EditTextTheme">
+
+                </EditText>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagnosis"
+                android:textSize="20sp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:background="@drawable/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@drawable/rectangle_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/athiti"
+                    android:theme="@style/EditTextTheme">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescription"
+                android:textSize="20sp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:background="@drawable/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@drawable/rectangle_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/athiti"
+                    android:theme="@style/EditTextTheme">
+
+                </EditText>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advice"
+                android:textSize="20sp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:background="@drawable/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@drawable/rectangle_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/athiti"
+                    android:theme="@style/EditTextTheme">
+
+                </EditText>
+
             </LinearLayout>
 
         </LinearLayout>
@@ -114,24 +291,34 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/rectangle_6"
-        android:elevation="8dp">
+        android:background="@drawable/rectangle_3"
+        android:elevation="5dp">
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_margin="18dp"
-            android:src="@drawable/ic_home">
-        </ImageView>
+            android:src="@drawable/ic_home" />
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_person"
             android:layout_alignParentEnd="true"
-            android:layout_margin="18dp"
-            />
+            android:layout_margin="18dp" />
+
     </RelativeLayout>
 
+
+    <android.support.design.widget.FloatingActionButton
+        android:translationZ="180dp"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_mic"
+        android:elevation="6dp"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="@android:color/white" />
 
 </RelativeLayout>

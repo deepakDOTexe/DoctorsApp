@@ -2,6 +2,7 @@ package ai.kitt.snowboy;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import ai.kitt.snowboy.demo.R;
 
