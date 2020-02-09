@@ -26,42 +26,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_doctor" />
 
-    <ImageView
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView6"-->
+<!--        android:layout_width="571dp"-->
+<!--        android:layout_height="81dp"-->
+<!--        android:layout_marginEnd="2dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.493"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:srcCompat="@drawable/ic_dashfoot" />-->
+
+    <RelativeLayout
         android:id="@+id/imageView6"
-        android:layout_width="571dp"
-        android:layout_height="81dp"
-        android:layout_marginEnd="2dp"
+        android:layout_width="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_dashfoot" />
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle_3"
+        android:elevation="5dp">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="55dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_dashfoothome" />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="18dp"
+            android:src="@drawable/ic_home" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_forward"
-        android:onClick="opnQRActivity"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_forward"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="18dp"
+            android:onClick="opnQRActivity"/>
+
+    </RelativeLayout>
+
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="70dp"
@@ -71,8 +76,8 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,13 +140,13 @@
 
     <TextView
         android:id="@+id/textViewHello"
-        android:layout_width="41dp"
-        android:layout_height="31dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="26dp"
         android:text="Hello,"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -150,7 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
-        android:text="Guest"
+        android:text="Deepak"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView5"

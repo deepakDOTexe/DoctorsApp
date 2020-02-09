@@ -2,7 +2,9 @@ package ai.kitt.snowboy;
 
 import android.Manifest;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
+import android.os.Environment;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.support.v4.app.ActivityCompat;
@@ -20,6 +22,7 @@ import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
+import java.io.File;
 import java.io.IOException;
 
 import ai.kitt.snowboy.demo.R;
@@ -99,4 +102,6 @@ public class qr_scanner extends AppCompatActivity {
         Intent intent = new Intent(this, FormActivity.class);
         startActivity(intent);
     }
+
+
 }

@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.speech.RecognitionListener;
@@ -21,10 +22,23 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Context;
 
+import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Font;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.Phrase;
+import com.itextpdf.text.pdf.PdfPCell;
+import com.itextpdf.text.pdf.PdfPTable;
+import com.itextpdf.text.pdf.PdfWriter;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Locale;
+import java.util.Map;
 
 import ai.kitt.snowboy.audio.AudioDataSaver;
 import ai.kitt.snowboy.demo.R;
@@ -449,7 +463,94 @@ public class FormActivity extends Activity {
 
     public void previewPdf(View view) {
         stopRecording();
+
+        HashMap<String,String>personal = new HashMap<>();
+        HashMap<String,String>medicinal = new HashMap<>();
+
+        personal.put("Name",name.getText().toString());
+        personal.put("Age",age.getText().toString());
+        personal.put("Gender",gender.getText().toString());
+        personal.put("Doctor Name","Doc1");
+
+        medicinal.put("Symptoms",symptoms.getText().toString());
+        medicinal.put("Diagnosis",diagnosis.getText().toString());
+        medicinal.put("Prescriptions",prescription.getText().toString());
+        medicinal.put("Advice",advice.getText().toString());
+
+        savepdf(personal,medicinal);
+
         Intent intent = new Intent(this, PreviewActivity.class);
         startActivity(intent);
+    }
+
+    public void savepdf(HashMap<String,String>personal,HashMap<String,String>medicinal)
+    {
+        //create object of Document class
+        Document mDoc =new Document();
+        //pdf file name
+//        String mFileName = new Date().toString();
+        String mFileName = "filename";
+        //pdf file path
+        String mFilePath= Environment.getExternalStorageDirectory().toString() + "/" + mFileName +".pdf";
+        try {
+
+            Font boldFont = new Font(Font.FontFamily.TIMES_ROMAN, 10,Font.BOLD);
+            Font normalFont = new Font(Font.FontFamily.TIMES_ROMAN, 10, Font.NORMAL);
+            //create instance of PdfWriter class
+            PdfWriter.getInstance(mDoc,new FileOutputStream(mFilePath));
+
+            //open the document for writing
+            mDoc.open();
+            //add author of the document (metadata) can also add other data
+            mDoc.addAuthor("doctor name");
+
+            //set table details
+            PdfPTable pTable=new PdfPTable(2);
+            PdfPCell col1;
+            PdfPCell col2;
+
+            //add personal details
+            mDoc.add(new Paragraph("Personal details : "));
+            pTable.setWidths(new int[]{2,3});
+            pTable.setWidthPercentage(100);
+            pTable.setSpacingBefore(15);
+            for(Map.Entry element : personal.entrySet())
+            {
+                col1=new PdfPCell(new Phrase((String)element.getKey(),boldFont));
+                col2=new PdfPCell(new Phrase((String)element.getValue(),normalFont));
+                pTable.addCell(col1);
+                pTable.addCell(col2);
+            }
+            mDoc.add(pTable);
+            pTable.setSpacingAfter(15);
+
+
+
+            mDoc.add(new Paragraph("Medicinal details : "));
+            pTable=new PdfPTable(2);
+            pTable.setWidths(new int[]{2,3});
+            pTable.setWidthPercentage(100);
+            pTable.setSpacingBefore(15);
+            for(Map.Entry element : medicinal.entrySet())
+            {
+                col1=new PdfPCell(new Phrase((String)element.getKey(),boldFont));
+                col2=new PdfPCell(new Phrase((String)element.getValue(),normalFont));
+                pTable.addCell(col1);
+                pTable.addCell(col2);
+            }
+            mDoc.add(pTable);
+
+            //close document
+            mDoc.close();
+
+            //show file saved message with file name and path
+            Toast.makeText(this, "File saved successfully", Toast.LENGTH_SHORT).show();
+
+
+        } catch (FileNotFoundException | DocumentException e) {
+            e.printStackTrace();
+            Toast.makeText(this, "Error in saving file", Toast.LENGTH_SHORT).show();
+        }
+
     }
 }
