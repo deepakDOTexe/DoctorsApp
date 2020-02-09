@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1034104512317",
+    "firebase_url": "https://doctorsapp-f10e0.firebaseio.com",
+    "project_id": "doctorsapp-f10e0",
+    "storage_bucket": "doctorsapp-f10e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034104512317:android:e2b9ce66163044dd1aef54",
+        "android_client_info": {
+          "package_name": "ai.kitt.snowboy.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034104512317-l2um3be5jrj7gjrkk7r2osprt77o18db.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.kitt.snowboy.demo",
+            "certificate_hash": "c6f8496509229d89035dc5afdbe94772e0be672d"
+          }
+        },
+        {
+          "client_id": "1034104512317-3mjn9vir7e5bhnm6pt4olh624qc4tph1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-xJNuFHNIMtlREqpWUX1lv2Xt5Q_E-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034104512317-3mjn9vir7e5bhnm6pt4olh624qc4tph1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
