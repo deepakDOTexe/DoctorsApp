@@ -447,5 +447,9 @@ public class FormActivity extends Activity {
     }
 
 
-
+    public void previewPdf(View view) {
+        stopRecording();
+        Intent intent = new Intent(this, PreviewActivity.class);
+        startActivity(intent);
+    }
 }

@@ -12,6 +12,7 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.google.android.gms.vision.CameraSource;
@@ -92,5 +93,10 @@ public class qr_scanner extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void openFormActivity(View view) {
+        Intent intent = new Intent(this, FormActivity.class);
+        startActivity(intent);
     }
 }

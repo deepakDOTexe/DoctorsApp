@@ -1,9 +1,11 @@
 package ai.kitt.snowboy;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.LinearLayout;
 
 import java.time.LocalDate;
@@ -30,7 +32,7 @@ public class DashboardActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
         PrescriptionData[] list2 = new PrescriptionData[]{
-                new PrescriptionData("Acute bronchitis", "1 Feb")
+                new PrescriptionData("Bronchitis", "1 Feb")
         };
 
         RecyclerView recyclerView2 = (RecyclerView) findViewById(R.id.recyclerView2);
@@ -40,5 +42,10 @@ public class DashboardActivity extends AppCompatActivity {
         recyclerView2.setLayoutManager(lm2);
         recyclerView2.setAdapter(adapter2);
 
+    }
+
+    public void opnQRActivity(View view) {
+        Intent intent = new Intent(this, qr_scanner.class);
+        startActivity(intent);
     }
 }
